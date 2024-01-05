@@ -32,7 +32,7 @@ The `.csv` files in Land-cover Maps folder
 24. Land_Cover_11000.csv
 25. Land_Cover_11500.csv
 
-based on the results in X (paper url)
+based on the results in Paper (soon to be submited)
 
 
 The columns represent
@@ -46,6 +46,7 @@ Land Cover Changes (LCC)
 LonLatElev in the name indicate the covariates used in the model.
 
 ### Reference:
+* Paper (soon to be submited)
 * Pirzamanbein, Behnaz, Johan Lindström, Anneli Poska, and Marie-José Gaillard. "Modelling Spatial Compositional Data: Reconstructions of past land cover and uncertainties." Spatial statistics 24 (2018): 14-31. (https://doi.org/10.1016/j.spasta.2018.03.005)
 * Pirzamanbein, Behnaz, Anneli Poska, and Johan Lindström. "Bayesian Reconstruction of Past Land Cover From Pollen Data: Model Robustness and Sensitivity to Auxiliary Variables." Earth and Space Science 7, no. 1 (2020): e2018EA00057. (https://doi.org/10.1029/2018EA000547)
 
