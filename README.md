@@ -1,9 +1,11 @@
 # SpatioCompo for entire Holocene North America
 Reconstruction of pollen-based land-cover (REVEALS) for entire Holocene (0-11700 BP). The reconstructions are based on the mathematical models developed in https://doi.org/10.1016/j.spasta.2018.03.005 and https://doi.org/10.1029/2018EA000547. 
 
-
 ## Land-cover maps for entire Holocene (0-1170 BP) which are based on pollen observations for North America
 ### The usage of the land-cover maps is free, however attribution to the publication is required.
+
+The netCDF file in Land-cover Maps folder
+* Land_Cover_entireHolocene_NA.nc
 
 The `.csv` files in Land-cover Maps folder
 1. Land_Cover_50.csv
@@ -34,7 +36,6 @@ The `.csv` files in Land-cover Maps folder
 
 based on the results in Paper (soon to be submited)
 
-
 The columns represent
 * Lon: longitude
 * Lat: latitude
@@ -43,10 +44,40 @@ Land Cover Changes (LCC)
 * B_*: Broadleaved forest
 * U_*: Unforested/Open land
 
-LonLatElev in the name indicate the covariates used in the model.
+LonLatElev in the name indicates the covariates used in the model, that is, Longitude, Latitude, and Elevation.
+
+The numbers in the file names indicate the midpoints, which correspond to the time windows:
+| Midpoint | Time Window       |
+|----------|-------------------|
+| 50       | 1950-1850 CE      |
+| 200      | 1850-1600 CE      |
+| 500      | 1600-1250 CE      |
+| 1000     | 1250-750 CE       |
+| 1500     | 750-250 CE        |
+| 2000     | 250 CE - 250 BCE  |
+| 2500     | 250-750 BCE       |
+| 3000     | 750-1250 BCE      |
+| 3500     | 1250-1750 BCE     |
+| 4000     | 1750-2250 BCE     |
+| 4500     | 2250-2750 BCE     |
+| 5000     | 2750-3250 BCE     |
+| 5500     | 3250-3750 BCE     |
+| 6000     | 3750-4250 BCE     |
+| 6500     | 4250-4720 BCE     |
+| 7000     | 4750-5250 BCE     |
+| 7500     | 5250-5750 BCE     |
+| 8000     | 5750-6250 BCE     |
+| 8500     | 6250-6750 BCE     |
+| 9000     | 6750-7250 BCE     |
+| 9500     | 7250-7750 BCE     |
+| 10000    | 7750-8250 BCE     |
+| 10500    | 8250-8750 BCE     |
+| 11000    | 8750-9250 BCE     |
+| 11500    | 9250-9750 BCE     |
+
 
 ### Reference:
-* Paper (soon to be submited)
+* Dawson, Andria, John W. Williams, Marie-José Gaillard, Simon J. Goring, Behnaz Pirzamanbein, Johan Lindstrom, R. Scott Anderson et al. "Holocene land cover change in North America: continental trends, regional drivers, and implications for vegetation-atmosphere feedbacks." Climate of the Past Discussions 2024 (2024): 1-52. (https://doi.org/10.5194/cp-2024-6)
 * Pirzamanbein, Behnaz, Johan Lindström, Anneli Poska, and Marie-José Gaillard. "Modelling Spatial Compositional Data: Reconstructions of past land cover and uncertainties." Spatial statistics 24 (2018): 14-31. (https://doi.org/10.1016/j.spasta.2018.03.005)
 * Pirzamanbein, Behnaz, Anneli Poska, and Johan Lindström. "Bayesian Reconstruction of Past Land Cover From Pollen Data: Model Robustness and Sensitivity to Auxiliary Variables." Earth and Space Science 7, no. 1 (2020): e2018EA00057. (https://doi.org/10.1029/2018EA000547)
 
